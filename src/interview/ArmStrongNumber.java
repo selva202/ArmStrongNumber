@@ -1,5 +1,7 @@
 package interview;
 
+
+
 import java.util.Scanner;
 
 public class ArmStrongNumber {
@@ -14,7 +16,7 @@ public class ArmStrongNumber {
 		while(entry>0) {
 			rev = entry%10;
 			entry = entry/10;
-			total= total + (rev*rev*rev);//27+125+1
+			total= total + (rev*rev*rev);//27+125+1\\edited
 			
 			}
 		if(total==sum) {
